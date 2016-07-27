@@ -1,4 +1,4 @@
-#SE-Dict browser extension firefox version
+#SE-Dict browser extension Firefox version
 A add-on assists user understand the user-generated content in software engineering domain.
 
 ##Few features in this SE-Dict browser extension
