@@ -1,0 +1,13 @@
+{
+  "title": "Software Engineering Dictionary Extension",
+  "name": "addon_tab",
+  "version": "1.0.0",
+  "description": "A dictionary of Softwaren Engineering Domain to assist people to understand the user generated content(abbreviation, misspelled terms)",
+  "main": "index.js",
+  "author": "Wang Ximing",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT"
+}

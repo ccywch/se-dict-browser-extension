@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Latest compiled and minified CSS -->
+
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script src="jquery-2.2.0.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="echarts.js"></script>
+</head>
+
+<body>
+
+<div class="titlebar">
+
+  <div class="message">
+    SE-dictionary
+  </div>
+
+  <div class="search">
+    <input id="inputItem" placeholder="" maxlength="25" onchange = "getItem(); getRelateTerms(); getTrendline();">
+    <button class="search-button">Go</button>
+  </div>
+</div>
+
+<div class="tabs" data-example-id="togglable-tabs">
+
+
+    <ul id="myTabs" class="nav nav-tabs" role="tablist">
+     
+      <li role="presentation" class="active"><a href="#overview" id="overview-tab" data-toggle="tab" aria-controls="overview" aria-expanded="true">overview</a></li>
+
+      <li role="presentation" class=""><a href="#related" id="related-tab" data-toggle="tab" aria-controls="related" aria-expanded="false">related</a></li>
+
+      <li role="presentation" class=""><a href="#others" id="others-tab" data-toggle ="tab" aria-controls="others" aria-expanded="false">trendLine</a></li>
+
+    </ul>
+    <section class="container">
+      <div id="myTabContent" class="tab-content">
+
+
+        <div class="tab-pane fade in active" id="overview" aria-labelledby="overview-tab">
+          <div id="first-tab"></div>
+
+          <!-- <input type="text" class= "inputItem" id="inputItem"> -->
+          <br/>
+          <div id="wikitag"></div><br/><br/>
+
+          <div id="faq"></div>
+
+          <br/><br/>
+
+        </div>
+
+
+        <div class="tab-pane fade" id="related" aria-labelledby="related-tab">
+           <div id="relateLib"></div> 
+
+           <div id="relateTerm"></div>       
+
+        </div>
+
+
+
+        <div class="tab-pane fade" id="others" aria-labelledby="others-tab">
+        <div id="trendline" style="width:380px; height:320px;"></div>
+
+
+        </div>
+
+      </div>
+    </section>
+</div>
+
+  
+  <script src="http://www.d3plus.org/js/d3.js"></script>
+  <script src="http://www.d3plus.org/js/d3plus.js"></script>
+  <script scr="d3.v3.min.js"></script>
+  <script scr="d3.v3.js"></script>
+  <script src="pageScript.js"></script>
+
+
+</body>
+</html>
