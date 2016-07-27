@@ -9,4 +9,4 @@ A add-on assists the users understand the user-generated content in the software
 ##To use the Firefox extension
 1. Open Firefox browser and go to Tools->add-ons.
 2. In the drop down list of the setting button, select install Add-on from file.
-3. choose the @addon_tab-1.0.0.xpi file and install.
+3. Choose the @addon_tab-1.0.0.xpi file and install.
