@@ -6,6 +6,9 @@ A add-on assists the users understand the user-generated content in the software
 2. Pass the selected terms to panel to show full explanation and relevant links.
 3. Give some recommendation that you may like.
 
+##Screen shot
+![alt tag](screenShot.png)
+
 ##To use the Firefox extension
 1. Open Firefox browser and go to Tools->add-ons.
 2. In the drop down list of the setting button, select install Add-on from file.
